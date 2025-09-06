@@ -244,6 +244,3 @@ def predict():
 
     # Pass category_column, Branch, and Institute separately to the template
     return render_template('result.html', results=result_list, category_column=category_column, Branch='Branch', Institute='Institute')
-
-if __name__ == '__main__':
-    app.run(debug=True)
